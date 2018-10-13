@@ -1,0 +1,217 @@
+EESchema Schematic File Version 2
+LIBS:OVERDRIVE-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:acs7xx12
+LIBS:OVERDRIVE-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R13
+U 1 1 58AC7795
+P 4800 2300
+F 0 "R13" V 4880 2300 50  0000 C CNN
+F 1 "47K" V 4800 2300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4730 2300 50  0001 C CNN
+F 3 "" H 4800 2300 50  0000 C CNN
+	1    4800 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R14
+U 1 1 58AC781E
+P 4800 2700
+F 0 "R14" V 4880 2700 50  0000 C CNN
+F 1 "47K" V 4800 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4730 2700 50  0001 C CNN
+F 3 "" H 4800 2700 50  0000 C CNN
+	1    4800 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R15
+U 1 1 58AC7D17
+P 4800 3100
+F 0 "R15" V 4880 3100 50  0000 C CNN
+F 1 "47K" V 4800 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4730 3100 50  0001 C CNN
+F 3 "" H 4800 3100 50  0000 C CNN
+	1    4800 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R19
+U 1 1 58AC828F
+P 6750 2300
+F 0 "R19" V 6830 2300 50  0000 C CNN
+F 1 "47K" V 6750 2300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6680 2300 50  0001 C CNN
+F 3 "" H 6750 2300 50  0000 C CNN
+	1    6750 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R20
+U 1 1 58AC8295
+P 6750 2700
+F 0 "R20" V 6830 2700 50  0000 C CNN
+F 1 "47K" V 6750 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6680 2700 50  0001 C CNN
+F 3 "" H 6750 2700 50  0000 C CNN
+	1    6750 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R21
+U 1 1 58AC829B
+P 6750 3100
+F 0 "R21" V 6830 3100 50  0000 C CNN
+F 1 "47K" V 6750 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6680 3100 50  0001 C CNN
+F 3 "" H 6750 3100 50  0000 C CNN
+	1    6750 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R16
+U 1 1 58AC86A6
+P 5250 3900
+F 0 "R16" V 5330 3900 50  0000 C CNN
+F 1 "4.7K" V 5250 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5180 3900 50  0001 C CNN
+F 3 "" H 5250 3900 50  0000 C CNN
+	1    5250 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R17
+U 1 1 58AC86AC
+P 5650 3900
+F 0 "R17" V 5730 3900 50  0000 C CNN
+F 1 "4.7K" V 5650 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5580 3900 50  0001 C CNN
+F 3 "" H 5650 3900 50  0000 C CNN
+	1    5650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R18
+U 1 1 58AC86B2
+P 6050 3900
+F 0 "R18" V 6130 3900 50  0000 C CNN
+F 1 "4.7K" V 6050 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5980 3900 50  0001 C CNN
+F 3 "" H 6050 3900 50  0000 C CNN
+	1    6050 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2300 4000 2300
+Wire Wire Line
+	4000 2300 4000 3100
+Wire Wire Line
+	3400 2700 4650 2700
+Wire Wire Line
+	4000 3100 4650 3100
+Connection ~ 4000 2700
+Wire Wire Line
+	4950 2300 6600 2300
+Wire Wire Line
+	4950 2700 6600 2700
+Wire Wire Line
+	4950 3100 6600 3100
+Wire Wire Line
+	5250 2050 5250 3750
+Connection ~ 5250 3100
+Wire Wire Line
+	5650 2050 5650 3750
+Connection ~ 5650 2700
+Wire Wire Line
+	6050 2050 6050 3750
+Connection ~ 6050 2300
+Wire Wire Line
+	5250 4050 5250 4500
+Wire Wire Line
+	5250 4500 6050 4500
+Wire Wire Line
+	5650 4050 5650 4850
+Wire Wire Line
+	6050 4500 6050 4050
+Connection ~ 5650 4500
+$Comp
+L GND #PWR016
+U 1 1 58AC8D43
+P 5650 4850
+F 0 "#PWR016" H 5650 4600 50  0001 C CNN
+F 1 "GND" H 5650 4700 50  0000 C CNN
+F 2 "" H 5650 4850 50  0000 C CNN
+F 3 "" H 5650 4850 50  0000 C CNN
+	1    5650 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2300 7650 2300
+Wire Wire Line
+	6900 2700 7650 2700
+Wire Wire Line
+	6900 3100 7650 3100
+Text Label 7250 2300 0    60   ~ 0
+PHASE_A
+Text Label 7250 2700 0    60   ~ 0
+PHASE_B
+Text Label 7250 3100 0    60   ~ 0
+PHASE_C
+Text GLabel 7650 2300 2    60   Input ~ 0
+PHASE_A
+Text GLabel 7650 2700 2    60   Input ~ 0
+PHASE_B
+Text GLabel 7650 3100 2    60   Input ~ 0
+PHASE_C
+Text GLabel 6050 2050 1    60   Input ~ 0
+MUX_A
+Text GLabel 5650 2050 1    60   Input ~ 0
+MUX_B
+Text GLabel 5250 2050 1    60   Input ~ 0
+MUX_C
+Text GLabel 3400 2700 0    60   Input ~ 0
+CENTER
+$EndSCHEMATC
